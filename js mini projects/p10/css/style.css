@@ -1,0 +1,25 @@
+.btn{
+    width: 19vw !important;
+    height: 8vh;
+    border-color: brown !important;
+    margin: .2%;
+    
+}
+body {
+    overflow: hidden; /* Hide scrollbars */
+}
+.screen{
+    
+    width: 80vw;
+    height: 20vh;
+    background-color: rgb(21, 20, 22);
+    color: aliceblue;
+    font-size: xx-large;
+
+}
+.calculator{
+    background-color: pink;
+    text-align: center; 
+     height: 100vh;
+}
+

@@ -1,0 +1,45 @@
+body {
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    
+  }
+.img_content{
+  background-image: url("https://img.freepik.com/free-photo/starry-night-sky_1048-11828.jpg");
+  background-repeat: no-repeat;
+}
+.bg_pic{
+  background-image: url("https://wallpaperaccess.com/full/42501.jpg");
+}
+.bg_pic_7{
+  background-image: url("https://wallpaperaccess.com/full/734758.jpg");
+  background-repeat: no-repeat;
+}
+.iconpic{
+  position: absolute;
+  height: 32vh;
+  width: 14vw;
+  top: 22vh;
+  left: 45vw;
+}
+.p7_text{
+  position: absolute;
+  background-color: black;
+  top: 54vh;
+  left: 24vw;
+  width: 30vw;
+}
+.p7_icon{
+  background-image: url("https://i.pinimg.com/originals/9f/b0/9f/9fb09f6977f917cefbab4dc4967c30cc.jpg");
+  background-size: cover;
+  
+
+}
+.btn_style{
+  background-color: red;
+}
+.nav_icon_p7{
+color: #7e1e3d;
+background-color: azure;
+padding: 32px;
+border-radius: 50%;
+}

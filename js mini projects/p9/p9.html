@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p9</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="p9.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light nav_white ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <!-- <i class="fas fa-bars"></i> -->
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-around" id="navbarText">
+                <div class="navbar-nav ">
+
+                    <a class="nav-link active pink_color" aria-current="page" href="#">Home</a>
+                    <a class="nav-link pink_color" href="#">About</a>
+                    <a class="nav-link pink_color" href="#">Store</a>
+
+                </div>
+                <div class="navbar-nav d-none d-lg-flex">
+                    <a class="nav-link disabled text-dark"><i class="fa-solid fa-phone-flip pe-3"></i> +123 456 789</a>
+                    <button href="#foo" class="btn btn-outline-dark ms-5 "  data-bs-toggle="collapse" id="toggle"> <i
+                            class="fa-solid fa-cart-shopping pe-3"></i>2 Items - $20.00</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- banner starts -->
+    <div class="banner_pic layer">
+        <div class="container banner_text row m-auto text-center">
+           
+            
+            <h1 class="text-white">
+                Welcome to <span class="pink_color">Grandma's</span><br>
+                <button type="button" class=" m-3 btn btn-outline-dark">EXPLORE
+            </h1>
+            </button>
+        </div>
+        
+
+    </div>
+    <div class="row " id="cart_div"  >
+    <ul class="cart collapse col-2 offset-10" id="foo">
+        <div class="row  ">
+        <li class="cart_items col-12 my-2 ">
+            <div class="">
+                <img class="menu_pic rounded-circle" src="images/cake-1.jpeg">
+
+            </div>
+            <div class="item_texts small">
+                <div class="item_name">
+                    Cart Item
+
+                </div>
+                <div class="item_price">
+                        $10.00
+                </div>
+
+            </div>
+            <div>
+                <i class="fa-solid fa-trash pink_color"></i>
+            </div>
+
+        </li><div>
+            <div class="row">
+        <li class="cart_items col-12 my-2">
+            <div class="">
+                <img class="menu_pic rounded-circle" src="images/cake-2.jpeg">
+
+            </div>
+            <div class="item_texts small">
+                <div class="item_name">
+                    Cart Item
+
+                </div>
+                <div class="item_price">
+                        $10.00
+                </div>
+
+            </div>
+            <div>
+                <i class="fa-solid fa-trash pink_color"></i>
+            </div>
+
+        </li></div>
+        <div class="total_price d-flex justify-content-around">
+           <div> Total
+           </div>
+           <div class="total">
+                $20.00
+
+           </div>
+        </div>
+        <DIV class="menu_end_btn d-table-row ">
+            <button class="btn btn-sm btn-outline-dark ">
+                CLEAR CART
+            </button>
+            <button class="btn btn-sm checkout_btn pink_color">
+                CHECKOUT
+            </button>
+        </DIV>
+    </ul>
+    <!-- about us -->
+
+    <div class="row ">
+        <div class="col-lg-5 offset-1 col p-5 my-auto">
+            <h2 class="text-dark">About <span class="pink_color">US</span></h2>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, odit magnam ad
+                vero, voluptate in doloribus ducimus tenetur fuga laudantium nisi laboriosam necessitatibus ipsam
+                sit voluptatibus qui cum delectus quae.</p>
+            <button type="button" class=" m-3 btn btn-outline-dark">EXPLORE
+            </button>
+        </div>
+        <div class="col-lg-5 offset-1 col ">
+            <div class="h_flex ">
+                <div class=" border_ani about_us_div" style="position: relative;">
+
+                    <img src="images/sweets-1.jpeg" class="about_us_pic ">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Our store -->
+    <div class="store_body">
+        <div class="container text-center p-5" >
+            
+            <h1>Our<span class="color: pink_color">Store</span></h1>
+            <div class="filter_links" id="myBtnContainer">
+            <button type="button" class="btn_items m-3 btn btn-outline-dark"  onclick="filterSelection('all')">ALL
+            </button>
+            <button type="button" class="btn_items m-3 btn btn-outline-dark" onclick="filterSelection('cakes')">CAKES
+            </button>
+            <button type="button" class="btn_items m-3 btn btn-outline-dark" onclick="filterSelection('cup')">CUPCAKES
+            </button>
+            <button type="button" class="btn_items m-3 btn btn-outline-dark" onclick="filterSelection('sweets')">SWEETS
+            </button>
+            <button type="button" class="btn_items m-3 btn btn-outline-dark" onclick="filterSelection('doughnuts')">DOUGHNUTS
+            </button><br>
+            <!-- <button id="ModalBTN">temporary modal</button> -->
+            </div>
+            <div class="row " >
+                <div class="col-lg-6 col offset-lg-3 offset-1 ">
+                    <div class="input-group flex-nowrap search_bar w-100">
+                        <span class="input-group-text search_icon" id="addon-wrapping"><i
+                                class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="text" class="form-control searchbar" id="searchbox"  onkeyup="searchFunction()"
+                            placeholder="Items..." >
+                    </div>
+                </div>
+            </div>
+
+            
+                <div class="row filter-sections" id="list">
+                    <div class="col-lg-4 col filterDiv sweets">
+
+                        <div class="card mt-5 ">
+                            <button class="item_button  " id="ModalBTN"><img src="images/sweets-1.jpeg" id="ModalBTN" class="card-img-top" data-bs-target="Modal" data-bs-toggle="#modal" alt="..."  onclick="openModal();currentSlide(1)">
+                            </button>
+                         <button class="shop_icon"><i class="fa-solid fa-cart-shopping"></i></button>
+                           <div class="card-body d-flex justify-content-between">
+                                <p id="title" class="card-text">
+                                    Sweet Item 1
+                                </p>
+                                <p id="price">5$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col filterDiv cup">
+                        <div class="card mt-5">
+                            <button class="item_button" id="ModalBTN"><img src="images/cupcake-1.jpeg" id="ModalBTN" class="card-img-top" data-bs-target="Modal" data-bs-toggle="#modal" alt="..."  onclick="openModal();currentSlide(2)">
+                            </button>
+                            <button class="shop_icon"><i class="fa-solid fa-cart-shopping"></i></button>
+                            <div class="card-body d-flex justify-content-between">
+                                <p id="title" class="card-text">
+                                    Cupcake Item
+                                </p>
+                                <p id="price">5$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col filterDiv cakes">
+                        <div class="card mt-5">
+                            <button class="item_button" id="ModalBTN"><img src="images/cake-1.jpeg" id="ModalBTN" class="card-img-top" data-bs-target="Modal" data-bs-toggle="#modal" alt="..."  onclick="openModal();currentSlide(3)">
+                            </button>
+                            <button class="shop_icon"><i class="fa-solid fa-cart-shopping"></i></button>
+                            <div class="card-body d-flex justify-content-between">
+                                <p id="title" class="card-text">
+                                    Cake Item
+                                </p>
+                                <p id="price">5$</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col filterDiv sweets">
+                        <div class="card mt-5">
+                            <button class="item_button" id="ModalBTN"><img src="images/sweets-2.jpeg" id="ModalBTN" class="card-img-top" data-bs-target="Modal" data-bs-toggle="#modal" alt="..."  onclick="openModal();currentSlide(4)">
+                            </button>
+                            <button class="shop_icon"><i class="fa-solid fa-cart-shopping"></i></button>
+                            <div class="card-body d-flex justify-content-between">
+                                <p id="title" class="card-text">
+                                    Sweet Item 2
+                                </p>
+                                <p id="price">5$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col filterDiv cup">
+                        <div class="card mt-5">
+                            <button class="item_button" id="ModalBTN"><img src="images/cupcake-2.jpeg" id="ModalBTN" class="card-img-top" data-bs-target="Modal" data-bs-toggle="#modal" alt="..."  onclick="openModal();currentSlide(5)">
+                            </button>
+                            <button class="shop_icon"><i class="fa-solid fa-cart-shopping"></i></button>
+                            <div class="card-body d-flex justify-content-between">
+                                <p id="title" class="card-text">
+                                    Cupcake Item
+                                </p>
+                                <p id="price">5$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col filterDiv cakes">
+                        <div class="card mt-5">
+                            <button class="item_button" id="ModalBTN"><img src="images/cake-2.jpeg" id="ModalBTN" class="card-img-top" data-bs-target="Modal" data-bs-toggle="#modal" alt="..."  onclick="openModal();currentSlide(6)">
+                            </button>
+                            <button class="shop_icon"><i class="fa-solid fa-cart-shopping"></i></button>
+                            <div class="card-body d-flex justify-content-between">
+                                <p id="title" class="card-text">
+                                    Cake Item
+                                </p>
+                                <p id="price">5$</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col filterDiv sweets">
+                        <div class="card mt-5">
+                            <button class="item_button" id="ModalBTN"><img src="images/sweets-3.jpeg" id="ModalBTN" class="card-img-top" data-bs-target="Modal" data-bs-toggle="#modal" alt="..."  onclick="openModal();currentSlide(7)">
+                            </button>
+                            <button class="shop_icon"><i class="fa-solid fa-cart-shopping"></i></button>
+                            <div class="card-body d-flex justify-content-between">
+                                <p id="title" class="card-text">
+                                    Sweet Item 3
+                                </p>
+                                <p id="price">5$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col filterDiv cup">
+                        <div class="card mt-5">
+                            <button class="item_button" id="ModalBTN"><img src="images/cupcake-3.jpeg" id="ModalBTN" class="card-img-top" data-bs-target="Modal" data-bs-toggle="#modal" alt="..."  onclick="openModal();currentSlide(8)">
+                            </button>
+                            <button class="shop_icon"><i class="fa-solid fa-cart-shopping"></i></button>
+                            <div class="card-body d-flex justify-content-between">
+                                <p id="title" class="card-text">
+                                    Cupcake Item
+                                </p>
+                                <p id="price">5$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col filterDiv cakes">
+                        <div class="card mt-5">
+                            <button class="item_button" id="ModalBTN"><img src="images/cake-3.jpeg" id="ModalBTN" class="card-img-top" data-bs-target="Modal" data-bs-toggle="#modal" alt="..."  onclick="openModal();currentSlide(9)">
+                            </button>
+                            <button class="shop_icon"><i class="fa-solid fa-cart-shopping"></i></button>
+                            <div class="card-body d-flex justify-content-between">
+                                <p id="title" class="card-text">
+                                    Cake Item
+                                </p>
+                                <p id="price">5$</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col filterDiv doughnuts">
+                        <div class="card mt-5">
+                            <button class="item_button" id="ModalBTN"><img src="images/doughnut-1.jpeg" id="ModalBTN" class="card-img-top" data-bs-target="Modal" data-bs-toggle="#modal" alt="..."  onclick="openModal();currentSlide(10)">
+                            </button>
+                            <button class="shop_icon"><i class="fa-solid fa-cart-shopping"></i></button>
+                            <div class="card-body d-flex justify-content-between">
+                                <p id="title" class="card-text">
+                                    Doughnut Item
+                                </p>
+                                <p id="price">5$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col filterDiv doughnuts">
+                        <div class="card mt-5">
+                            <button class="item_button" id="ModalBTN"><img src="images/doughnut-2.jpeg" id="ModalBTN" class="card-img-top" data-bs-target="Modal" data-bs-toggle="#modal" alt="..."  onclick="openModal();currentSlide(11)">
+                            </button>
+                            <button class="shop_icon"><i class="fa-solid fa-cart-shopping"></i></button>
+                            <div class="card-body d-flex justify-content-between">
+                                <p id="title" class="card-text">
+                                    Doughnut Item
+                                </p>
+                                <p id="price">5$</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col filterDiv doughnuts ">
+                        <div class="card mt-5 ">
+                            <button class="item_button" id="ModalBTN"><img src="images/doughnut-3.jpeg" id="ModalBTN" class="card-img-top" data-bs-target="Modal" data-bs-toggle="#modal" alt="..."  onclick="openModal();currentSlide(12)">
+                            </button>
+                            <button class="shop_icon"><i class="fa-solid fa-cart-shopping"></i></button>
+                            <div class="card-body d-flex justify-content-between">
+                                <p id="title" class="card-text">
+                                    Doughnut Item
+                                </p>
+                                <p id="price">5$</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            
+            <!-- modal -->
+           
+            <div class=" sliderfield modal" id="Modal">
+                
+                    <div class="lightbox-holder modal-content " >
+                        <div class="modal-dialog-lg">
+                            <div class="modal-content">
+                                <div class="modal-header modal_h">
+                            <button type="button" class="close modal_button" data-bs-dismiss="modal" id="myModal" onclick="close_model()" aria-hidden="true"><i class="fas fa-window-close"></i></button>
+                        </div>
+                        <!-- <img src="images/cake-1.jpeg" style="height: 100%;" id="pics"> -->
+                        <div class="modal_pic" id="pics" >
+                            <div class="mySlides">
+                                
+                                <img src="images/sweets-1.jpeg" style="width:50%">
+                              </div>
+                          
+                              <div class="mySlides">
+                                
+                                <img src="images/cupcake-1.jpeg" style="width:50%">
+                              </div>
+                          
+                              <div class="mySlides">
+                                
+                                <img src="images/cake-1.jpeg" style="width:50%">
+                              </div>
+
+                              <div class="mySlides">
+                                
+                                <img src="images/sweets-2.jpeg" style="width:50%">
+                              </div>
+                          
+                              <div class="mySlides">
+                                
+                                <img src="images/cupcake-2.jpeg" style="width:50%">
+                              </div>
+                          
+                              <div class="mySlides">
+                                
+                                <img src="images/cake-2.jpeg" style="width:50%">
+                              </div>
+                              <div class="mySlides">
+                                
+                                <img src="images/sweets-3.jpeg" style="width:50%">
+                              </div>
+                          
+                              <div class="mySlides">
+                                
+                                <img src="images/cupcake-3.jpeg" style="width:50%">
+                              </div>
+                          
+                              <div class="mySlides">
+                                
+                                <img src="images/cake-3.jpeg" style="width:50%">
+                              </div>
+                              <div class="mySlides">
+                                
+                                <img src="images/doughnut-1.jpeg" style="width:50%">
+                              </div>
+                          
+                              <div class="mySlides">
+                                
+                                <img src="images/doughnut-2.jpeg" style="width:50%">
+                              </div>
+                          
+                              <div class="mySlides">
+                                
+                                <img src="images/doughnut-3.jpeg" style="width:50%">
+                              </div>
+
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)"><i class="fas fa-caret-left"></i></a>
+                        <a class="next" onclick="plusSlides(1)"><i class="fas fa-caret-right"></i></a>
+
+                       
+                    </div>
+                </div>
+            </div>
+          
+           
+        </section>
+      </div>
+
+
+<!-- scripts -->
+
+
+<!-- 
+button filter -->
+    <script>
+
+        function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("filterDiv");
+            if (c == "all") c = "";
+            for (i = 0; i < x.length; i++) {
+                RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
+            }
+        }
+
+        function AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+            }
+        }
+
+        function RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+            }
+            element.className = arr1.join(" ");
+        }
+
+       
+
+</script>
+
+<!-- search bar  -->
+
+
+<script>
+
+function searchFunction() {
+      
+const input =  document.getElementById('searchbox').value.toUpperCase();
+ console.log(input);
+
+const itemDiv = document.getElementById("list");
+console.log(itemDiv);
+const items = itemDiv.getElementsByClassName("card");
+ console.log(items);
+ const box = itemDiv.getElementsByClassName("col");
+ console.log(box);
+
+
+ for ( let i = 0; i < items.length ; i++) {
+    let element = document.getElementById("list");
+    console.log(element);
+  element.classList.remove("filterDiv");
+  console.log(element);
+
+    let a = items[i].querySelector(".card-body p.card-text");
+
+     console.log( a);
+     if (a.innerText.toUpperCase().indexOf(input)> -1){
+             box[i].classList.remove("filterDiv");
+     } else{
+        box[i].classList.add("filterDiv");
+     }
+     
+ }
+}
+
+    </script>
+
+    <!-- for modal -->
+    <script>
+             var modal = document.getElementById("Modal");
+             var span = document.getElementById("close");
+            var btn = document.getElementById("ModalBTN");
+
+            btn.onclick = function() {
+            modal.style.display = "block";
+            }
+           
+            
+            
+                window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+                }
+                function close_model(){
+            modal.style.display = "none";
+            }
+function openModal() {
+  document.getElementById("Modal").style.display = "block";
+//   var img_src = document. getElementById("ModalBTN"). src; console. log(img_src);
+}
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+
+ 
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+
+  slides[slideIndex-1].style.display = "block";
+ 
+  
+}
+
+    </script>
+
+<!-- 
+shopmenu -->
+
+
+<script>
+x= document.getElementsByClassName(shop_item);
+
+
+
+</script>
+
+</body>
+
+</html>

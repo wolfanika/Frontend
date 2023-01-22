@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js_practice</title>
+</head>
+<body>
+    <button id="btn1" onclick="toggle_box()">
+        hide/show box
+
+    </button>
+    <button id="btn2" onclick="toggle_pic()">
+        hide/show pic
+
+    </button>
+
+    <div id="div1" style="background-color: rgb(228, 31, 31) ; height: 200px; width: 200px;"> 
+        box
+    </div>
+
+    <img id="img1" src="image/tae.jpg" style="width: 200px; height:200px">
+    
+
+    
+ <script>
+    function toggle_box(){
+        var x = document.getElementById("div1");
+        var a;
+
+
+        if(x.style.display=== "none"){
+            x.style.display= "block";
+        }
+
+        else
+        {
+            x.style.display="none";
+        }
+    }
+
+    var a;
+    function toggle_pic(){
+      
+        
+
+         if (a==1){
+            document.getElementById("img1").style.display="block";
+            return a=0;
+         }
+
+         else{
+            document.getElementById("img1").style.display="none"
+            return a=1;
+         }
+
+
+        
+    }
+
+ </script>   
+</body>
+</html>
