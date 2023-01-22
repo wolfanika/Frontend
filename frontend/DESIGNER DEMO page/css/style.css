@@ -1,0 +1,304 @@
+/* header css */
+.LiveViewPage_header{
+    background-image:url("../image/page-banner-bg.jpg");    
+    background-size: contain; 
+    height: 500px; 
+    background-repeat: no-repeat;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(/image/banner-bg.jpg);
+    padding: 0px 252px;
+
+}
+.header_aboutus{
+    background-image: url(../image/page-banner-bg.jpg);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro_aboutus{
+
+    height: 300px;
+}
+.nav-pills .nav-link.active  {
+    background-color: white !important;
+    color:#d12e3b !important;
+}
+.nav-link:hover{
+    color:#d12e3b !important;
+
+}
+.index{
+    display: flex;
+
+
+
+
+}
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a{
+    color: rgba(237, 244, 250, 0.945);
+    text-decoration: none;
+
+}
+h2 button a, h2 button{
+    border: none;
+    text-decoration: none;
+    color: rgb(170, 9, 63) !important; 
+    background-color: white;
+    border-radius: 7px;
+    width: 126px;
+    height: 30px;
+    margin: 20px;
+
+
+}
+
+h3 button{
+    border: none;
+    text-decoration: none;
+    
+    border-radius: 7px;
+    width: 126px;
+    height: 30px;
+    margin: 20px;
+
+}
+
+
+button:hover{
+    color: rgb(218, 30, 55);
+}
+.logo{
+    cursor: pointer;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s ;
+}
+.nav_links li a:hover{
+   color: palevioletred;
+}
+.search-form{
+    margin-top: 134px;
+    margin-left: 250px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    width: 63%;
+    height: 160px;
+    border-radius: 5px;
+    padding: 33px;
+    background-color: white;
+}
+
+.contain{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 175px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+input[type=submit]   
+{  width: 100%;
+background-color: #d12e3b;
+color: white;
+padding: 6px 0px;
+margin: 16px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+select:active{
+    border-color: aqua;
+  
+
+
+}
+.body{
+    display: flex;
+    width: 100%;
+    
+    padding-left: 100px;
+    font-size: 12px;
+    padding-right: 100px;
+    
+}
+h4:hover
+{
+    color: #d12e3b;
+}
+
+.form{
+    background-color: white;
+}
+.footer_form_submit{
+    text-decoration: none;
+    color: grey;
+    border: hidden ;
+
+
+}
+.active_nav{
+    background-color: white;
+    border-radius: 10px;
+    height: 39px;
+    color: magenta;
+    width: 109px;
+    border-color: magenta;
+
+}
+.about_intro{
+    text-align: center;
+    margin: 140px 455px;
+    justify-content: center;
+    font-size: 12px;
+}
+.about_service{
+    background-color: white;
+    padding: 30px;
+    border-radius: 7px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px grey;
+    text-align: center;
+}
+.about_passage{
+    width: 50%;
+    padding-left: 6%;
+    padding-top: 200px;
+    color: grey;
+    font-family: -webkit-body;
+    line-height: 20px;
+    font-size: 11px;
+}
+.color_title{
+    width: 100%;
+   
+    padding-top: 200px;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+.collapsible{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    
+    
+    font-size: 15px;
+}
+.collapse_item{
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: rgb(255, 255, 255);
+    color: rgb(102, 99, 99) ;
+}
+
+.collapsible :hover{
+    color: black !important; 
+}
+
+.checked {
+  color: rgb(255, 0, 85);
+}
+
+.pinkforum{
+    margin: -50px 280px 600px 280px;
+    position: relative;
+    
+    
+    
+
+}
+.hr{
+    width: 50px;
+    float: left;
+    color: #d12e3b;
+}
+.red_address{
+    background-color: #d12e3b;
+    display: block;
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    border-radius: 5px;
+
+}
+.line-button{
+    color: #d12e3b;
+    background-color: white;
+    border-radius: 14px;
+    padding: 12px;
+}
+.line-button:hover{
+    color: white;
+    background-color: #d12e3b;
+}
+.email-button{
+    text-decoration: none;
+    border: 0pt;
+    background-color: transparent;
+    margin-left: 360px;
+    position: absolute;
+    
+
+
+}
+.fmail-box{
+    width: 600px;
+    border: hidden;
+    border-bottom: 1px;
+}
+.gototop{
+    text-decoration: none;
+    color: gray;
+
+
+}
+.gototop:hover{
+    color:#d12e3b
+}
+
+ p a{
+    text-decoration: none;
+    color: grey;
+
+}
+ p a:hover{
+    color: #d12e3b !important ;
+}
+
+
+
+
+
+
+
+

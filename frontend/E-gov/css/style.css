@@ -1,0 +1,452 @@
+/* navbar */
+
+/* .erp_btn{
+    background-color: #51688B;
+
+} */
+.theme_color{
+  color:  #51688B !important;
+
+}
+body {
+  overflow-x: hidden; /* Hide scrollbars */
+}
+.theme_color2{
+  color:  #44A6A0 !important;
+
+}
+.number_size{
+  font-size: xx-large;
+}
+.nav_logo_size{
+  width: 10% !important;
+
+}
+.nav-link {
+    transition: all 2s;
+    color: gray !important;
+  }
+  .navbar-nav > li{
+    padding-left:2px;
+    padding-right:2px;
+  }
+  
+ 
+  .fill .nav-link:hover {
+    color: orange !important;
+  }
+  .erp_btn{
+    background-color: #51688B !important;
+    color: white !important ;
+    
+     
+
+  }
+   .erp_btn:hover{
+    color: orange !important;
+   
+
+  }
+  .about_us_dt  .a :hover
+  {
+    color: orange !important;
+ 
+  
+
+  } 
+  .dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdown-menu-custom .dropdown-menu[data-bs-popper] {
+  top: 100%;
+  left: -1000px !important;
+  margin-top: var(--bs-dropdown-spacer);
+  width: 1100px;
+  height: 200px;
+}
+.drop_aboutus_menu_1{
+  background: #E2E3E4;
+  margin: 7px 20px;
+
+}
+
+
+.passage{
+  font-weight: normal !important;
+  
+}
+.contact_submenu_list_item a:hover{
+  font-weight: normal !important;
+  color: orange !important;
+  text-decoration: underline !important;
+}
+
+/* banner */
+.bg_banner{
+  background-image: url(../images/egovt-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+ 
+  
+  
+}
+.banner_pic{
+  background-repeat: no-repeat;
+  height: 400px;
+  }
+
+.banner_pic_size{
+  width: -webkit-fill-available ;
+  margin: 16%;
+}
+
+.below_banner_bar_section{
+  position: relative;
+}
+.below_banner_bar{
+  background-color: white;
+  height: 100px;
+  padding: 20px;
+  position: absolute;
+  top: -45px;
+
+
+}
+.border-right {
+  border-right: 1px solid #ddd;
+}
+.borders {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  margin: -1px;
+}
+.border-left {
+  border-left: 1px solid #ddd;
+}
+
+
+/* solution */
+
+.rainbow_text_animated {
+  background: linear-gradient(to left,violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 12s infinite;
+  background-size: 400% 100%;
+  background-repeat: repeat-x;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes rainbow_animation {
+  0%,100% {
+      background-position: 0 0;
+  }
+
+  50% {
+      background-position: 100% 0;
+  }
+}
+
+.it_solution{
+  background-color: #f1f1f1;;
+}
+.card-text{
+  font-size: 10px !important;
+  color:  #828273;
+  text-align: center;
+  font-weight: 400;
+}
+.it_card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+.card{
+  border-radius: 1px !important;
+}
+/* core-service */
+.text_service{
+font-size: 14px !important;
+
+}
+.core_service_top_img_box{
+  
+  border: 3px solid rgba(5, 136, 128, 1);
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  padding: 18px;
+  
+}
+.water_effect{
+  background: linear-gradient(white, white 50%, #afe2ce 50%, #afe2ce);
+  background-size: 100% 200%;
+  /*trasition effect for background*/
+  transition: background 1s;
+  border: rgb(206, 206, 206)  solid 1px  !important;
+}
+
+.water_effect:hover {
+  background-position: 100% 100%;
+}
+.core_service_top_img_fit{
+  height: -webkit-fill-available !important;
+
+}
+
+.margin_core{
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 0px;
+
+}
+
+.core_card-img-top{
+  height: 7vw !important;
+}
+
+/* mobile app */
+.mobile_application_body{
+  
+  background-color: #f1f1f1;
+}
+.carousel .carousel-indicators li {
+  background-color: #C4C4C4;
+  
+
+}
+.mob_slide_height{
+height: 110vh;
+}
+
+.carousel-indicators .active {
+  background-color: #058880 !important;
+}
+
+.mobile_app_carousel_p1 li {
+  text-align: center;
+  line-height: 2em;
+  color: white;
+  background-color: white;
+  position: relative;
+  border: 1px solid rgba(5, 136, 128, 1);
+  height: 60px;
+  width: 60px;
+  align-items: center;
+  margin-bottom:60px;
+  
+}
+
+.mobile_app_carousel_p1 li::before{
+  content: '';
+  position: absolute;
+  top: 59px;
+  height: 60px;
+  width: .1em;
+  background:rgba(5, 136, 128, 1);
+  z-index: 1;
+}
+.mobile_app_carousel_p1 li:last-child::before {
+  display: none;
+}
+.mobile_pic{
+  height: 20vw;
+}
+.advanced_pic{
+ height: 15vw;
+}
+.advanced_list {
+  list-style: none;
+  
+  
+}
+.advanced_list li::before{
+  content: "\2022";
+  color: red !important;
+  margin: 6px;
+}
+
+/* our projects */
+
+.owl-nav button {
+  height: 48px;
+  position: absolute;
+  width: 48px;
+  cursor: pointer;
+  bottom: 330px !important;
+  color: #828273 !important;
+
+  
+}
+
+
+.owl-theme .owl-nav [class*=owl-]:hover{
+  background: none !important;
+  color: black !important; 
+     
+}
+
+.owl-nav button.active.focus,
+.owl-nav button.active:focus,
+.owl-nav button.focus,
+.owl-nav button:active.focus,
+.owl-nav button:active:focus,
+.owl-nav button:focus, 
+.owl-nav button.hover,
+.owl-nav button:hover
+.owl-carousel .owl-nav button.owl-prev
+{
+  outline: none;
+  box-shadow: none;
+  background-color: none !important;
+  
+}
+
+.owl-prev {
+  right: -65px;
+}
+
+.owl-next {
+  left: -65px;
+}
+
+.card-height{
+  height: 324px !important;
+}
+
+/* our_valued_clients */
+
+.our_valued_clients_carousal {
+  position: relative;
+
+}
+.our_valued_clients_carousal_owl_stage{
+  transform: translate3d(-1527px, 0px, 0px);
+  transition: all 0.25s ease 0s;
+  width: 1334px;
+}
+.our_valued_clients_carousal_owl_stage_outer{
+  border: 1px solid#D6D6D6;
+}
+.our_valued_clients_carousal_owl_item{
+  width: 146px;
+  margin-right: 10px;
+  border-right: 2px  solid#D6D6D6;
+}
+.our_valued_clients_carousal_item{
+  margin-top: 30px;
+  height: 64px;
+  width: 100px;
+
+}
+
+.owl2 .owl-nav button {
+  height: 48px;
+  position: absolute;
+  width: 48px;
+  cursor: pointer;
+  bottom: 75px !important;
+  color: #828273 !important;
+
+  
+}
+.owl2 .owl-prev {
+  right: -25px;
+}
+
+.owl2 .owl-next {
+  left: -25px;
+}
+.vc_card-img-top{
+height: 24vh;
+}
+.client_img{
+  
+  object-fit: contain;
+
+}
+.client-height{
+  width: 18vw;
+  margin: auto;
+}
+/* CLIENT SATISFIED  */
+.client_satisfied{
+  background-color: #F5F5F5;
+
+}
+.orc_valued_clients_title{
+  margin-top: 38px;
+
+}
+.orc_valued_clients_subtitle{
+  text-align: center;
+  
+  font-size: 14px;
+
+}
+.carousel .carousel-indicators li {
+  background-color: #C4C4C4;
+
+
+}
+
+.carousel-indicators .active {
+  background-color: #058880 !important;
+}
+.satified_client_pic{
+height: 80px;
+width: 70px;
+justify-content: center;
+margin-bottom: 10px;
+}
+.size_client_satisfied{
+height: 450px !important;
+}
+
+/* footer */
+
+.footer_sub{
+  text-decoration: none;
+  
+
+}
+.footer_sub:hover{
+  color: orange !important;
+
+}
+.footer_hr_2{
+border-top: dotted 3px white !important;
+
+
+}
+.fb_icon:hover{
+ background-color:  rgb(0, 110, 255) !important;
+}
+.ig_icon:hover{
+  background-color: rgb(188, 62, 192)!important;
+}
+.g_icon:hover{
+  background-color: rgb(255, 94, 0)!important;
+}
+.in_icon:hover{
+  background-color: rgb(90, 146, 218)!important;
+}
+.yt_icon:hover{
+  background-color: rgb(255, 0, 0)!important;
+}
+.tw_icon:hover{
+  background-color: rgb(0, 217, 255)!important;
+}
+
+.bot_foot{
+  background-color: black;
+}
+.end_logo{
+  height: 20px;
+}
+
