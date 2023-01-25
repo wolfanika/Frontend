@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p15</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <section class="" style="height: 100vh;">
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6 offset-3 formbox pt-2 pb-2 my-2 shadow" style="    background-color: pink;">
+                    <form class="row">
+                        <div class="col-12">
+                            <h3 class="text-danger text-center">Get A Free Course</h3>
+
+
+
+
+
+                            <label for="inlineFormInputGroupUsername"></label>
+                            <div class="input-group ">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">🧑🏻
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control" id="v1" placeholder="Customer Name">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="inlineFormInputGroupUsername"></label>
+                            <div class="input-group ">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">📕
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control" id="v2" placeholder="Course">
+                            </div>
+                        </div>
+
+
+                        <div class="col-12">
+                            <label for="inputState" class="form-label"></label>
+                            <div class="input-group ">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">🧔🏻
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control" id="v3" placeholder="Author">
+                            </div>
+
+
+
+                        </div>
+
+
+                        <div class="text-center">
+                            <button type="reset" onclick="newElement()"
+                                class="btn w-100 mt-2 btn-outline-success addBtn  ">
+                                Submit Here
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row" id="center">
+
+
+                <div class="card col-12 col-lg-3 col-md-4">
+                    <img src="https://source.unsplash.com/1600x900/?random" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title bg-success">Name: <span> John Anderson </span></h5>
+                        <h5 class="card-title bg-danger">Course: <span> Css Basics</span></h5>
+                        <h5 class="card-title bg-warning">Author: <span> John Anderson</span></h5>
+                    </div>
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+    </section>
+    <script>
+
+        
+        function newElement() {
+
+            const CusNameDiv = document.getElementById("v1").value;
+            const CourseNameDiv = document.getElementById("v2").value;
+            const AuthorNameDiv = document.getElementById("v3").value;
+            const btn = document.getElementById("addBtn");
+            console.log(CourseNameDiv);
+            // if ((CusNameDiv ==!"") && ( CourseNameDiv ==!"" ) &&(AuthorNameDiv ==!"")) {
+            //  btn.classList.remove("accessdisabled");
+            //  btn.classList.add("access");
+            //  console.log(CusNameDiv)
+            // }
+
+
+            
+            var div = document.createElement("div");
+            div.className += ' card  ';
+            div.className += ' col-12 ';
+            div.className += '  col-lg-3  ';
+            div.className += '  col-md-4  ';
+
+            div.innerHTML =
+
+
+                '<img src="https://source.unsplash.com/1600x900/?' + CourseNameDiv + '" class="card-img-top" alt="...">\n' +
+                '<div class="card-body">\n' +
+                '<h5 class="card-title bg-success">Name:  <span>    ' + CusNameDiv + ' </span></h5>\n' +
+                '<h5 class="card-title bg-danger">Course:  <span>  ' + CourseNameDiv + '</span></h5>\n' +
+                ' <h5 class="card-title bg-warning">Author:  <span>  ' + AuthorNameDiv + '</span></h5>\n' +
+                '</div>\n';
+
+            const newdiv = document.getElementById("center");
+            newdiv.appendChild(div);
+
+
+        }
+
+
+    </script>
+
+</body>
+
+</html>
