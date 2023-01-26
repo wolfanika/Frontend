@@ -125,10 +125,10 @@
                 </div>
             </div>
             <DIV class="menu_end_btn d-table-row ">
-                <button class="btn btn-sm btn-outline-dark ">
+                <button class="btn btn-sm btn-outline-dark " id="clrcart" onclick="clrcart()">
                     CLEAR CART
                 </button>
-                <button class="btn btn-sm checkout_btn pink_color">
+                <button class="btn btn-sm checkout_btn pink_color" id="checkout" onclick="checkout()">
                     CHECKOUT
                 </button>
             </DIV>
@@ -654,6 +654,29 @@
 
 
                 <script>
+                     function clrcart(){
+                        const itemnumber = document.getElementById("itemnumdiv");
+                        const totpricediv = document.getElementById("total");
+                        const c= document.getElementById("center");
+                        c.innerHTML="";
+                        console.log(c);
+                        itemnumber.textContent ="0 Items" + "-" +  "$" + "00.00";
+
+                        totpricediv.textContent = "$00.00";
+
+                    }
+
+
+                        function checkout(){
+                            swal({
+                            title: 'Thank you for Shopping With us',
+
+                            confirmButtonColor: '#FF61C4DE',
+                            confirmButtonText: 'Bye',
+                        });
+
+                        }
+
                     function addItem(sender) {
                         swal({
                             title: 'Item Saved',
